@@ -5,7 +5,7 @@
 
 var person = {
   name: "Lukas",
-  age: 20
+  age: 21
 }
 
 console.log("My name is " + JSON.stringify(person))
