@@ -9,7 +9,7 @@ var person = {
 }
 
 console.log("My name is " + JSON.stringify(person))
-console.log(`My name is ${JSON.stringify(person)}`)
+//console.log(`My name is ${JSON.stringify(person)}`)
 
 let characterLevel = 5;
 let startStatIds = [10, 10, 10, 20, 100, 50];
