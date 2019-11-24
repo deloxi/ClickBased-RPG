@@ -1,8 +1,3 @@
-// if characterLevel > 1
-  //  statIds = statIds + [1, 1, 1, 2, 10, 5];
-//^to be fixed^
-
-
 var person = {
   name: "Lukas",
   age: 21
