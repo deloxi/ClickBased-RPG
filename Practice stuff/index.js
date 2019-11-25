@@ -1,11 +1,9 @@
-let message = "this time";
-
-function myFunction() {
-    let message = "Hello World!";
-    return message;
-
-}
-
-myFunction();
-
-console.log( message );
+function Person(first, last, age, gender, interests) {
+  
+    
+    this.name = {
+      'first': first,
+      'last' : last
+    };
+    this.age = age;
+    this.gender = gender;
