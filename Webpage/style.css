@@ -1,0 +1,64 @@
+body {
+    background-color: darkslategray;
+    color: honeydew;
+    background-image: url(https://images.wallpaperscraft.com/image/stripes_lines_background_diagonally_18591_1920x1080.jpg);
+}
+
+
+.actionBox {
+width: 50%;
+height: 80vh;
+margin: auto;
+margin-top: 20px;
+background-color: grey;
+border-radius: 5%;
+border: 4px solid crimson;
+max-width: 700px;
+min-width: 700px;
+position: relative;
+/* display: inline-block;*/
+}
+
+/*.box-pos {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+*/
+
+.content {
+position: absolute;
+width: 100%;
+height: 100%;
+background-color: grey;
+border-radius: 5%;
+}
+
+body::before {
+    content: 'Input Game Name here';
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 4px 4px black;
+    color: crimson;
+    display: block;
+    font-weight: 900;
+    position: relative;
+    text-align: center;
+    left: auto;
+    right: auto;
+    
+}
+
+
+
+/*#title {
+    position: static;
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 4px 4px black;
+    font-size: 35px;
+
+    <div id= "title">Name 4 ClickBased-RPG</div>
+}
+*/

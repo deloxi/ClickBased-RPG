@@ -1,9 +1,6 @@
-function Person(first, last, age, gender, interests) {
-  
-    
-    this.name = {
-      'first': first,
-      'last' : last
-    };
-    this.age = age;
-    this.gender = gender;
+
+for (let i=0; i<5; i++) {
+    if (i === 3)
+      continue;
+      console.log(i);
+}
