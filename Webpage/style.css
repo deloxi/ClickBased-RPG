@@ -6,32 +6,32 @@ body {
 
 
 .actionBox {
-width: 50%;
-height: 80vh;
-margin: auto;
-margin-top: 20px;
-background-color: grey;
-border-radius: 5%;
-border: 4px solid crimson;
-max-width: 700px;
-min-width: 700px;
-position: relative;
-/* display: inline-block;*/
+    width: 50%;
+    height: 80vh;
+    margin: auto;
+    margin-top: 20px;
+    background-color: grey;
+    border-radius: 5%;
+    border: 4px solid crimson;
+    max-width: 700px;
+    min-width: 700px;
+    position: relative;
+    /* display: inline-block;*/
 }
 
 /*.box-pos {
-display: flex;
-justify-content: center;
-align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 */
 
 .content {
-position: absolute;
-width: 100%;
-height: 100%;
-background-color: grey;
-border-radius: 5%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: grey;
+    border-radius: 5%;
 }
 
 body::before {
